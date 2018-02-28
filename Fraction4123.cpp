@@ -89,8 +89,10 @@ Fraction4123 Fraction4123::subtract(Fraction4123) {
 	return diff;
 }
 //9
-Fraction4123 Fraction4123::multiply(Fraction4123) {
+Fraction4123 Fraction4123::multiply(Fraction4123 frac) {
 	Fraction4123 product;
+	product.num = num * frac.num;
+	product.den = den * frac.den;
 	return product;
 }
 //10
