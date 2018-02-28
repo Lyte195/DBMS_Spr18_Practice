@@ -91,6 +91,7 @@ Fraction4123 Fraction4123::subtract(Fraction4123) {
 //9
 Fraction4123 Fraction4123::multiply(Fraction4123) {
 	Fraction4123 product;
+	dada
 	return product;
 }
 //10
